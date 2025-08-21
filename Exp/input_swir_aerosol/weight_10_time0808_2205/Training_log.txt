@@ -1,0 +1,569 @@
+[Train] Iter 10/5000 | Time: 66.61s | Batch_OA: 75.18 | Batch_mIoU: 37.87 | CE_loss: 0.615
+[Train] Iter 20/5000 | Time: 7.11s | Batch_OA: 94.95 | Batch_mIoU: 47.67 | CE_loss: 0.507
+[Train] Iter 30/5000 | Time: 7.03s | Batch_OA: 91.21 | Batch_mIoU: 46.19 | CE_loss: 0.500
+[Train] Iter 40/5000 | Time: 6.93s | Batch_OA: 85.15 | Batch_mIoU: 43.49 | CE_loss: 0.471
+[Train] Iter 50/5000 | Time: 7.09s | Batch_OA: 94.69 | Batch_mIoU: 47.98 | CE_loss: 0.441
+[Train] Iter 60/5000 | Time: 7.11s | Batch_OA: 93.51 | Batch_mIoU: 46.99 | CE_loss: 0.440
+[Train] Iter 70/5000 | Time: 7.34s | Batch_OA: 86.12 | Batch_mIoU: 43.22 | CE_loss: 0.449
+[Train] Iter 80/5000 | Time: 7.22s | Batch_OA: 92.01 | Batch_mIoU: 46.14 | CE_loss: 0.407
+[Train] Iter 90/5000 | Time: 7.26s | Batch_OA: 96.40 | Batch_mIoU: 48.40 | CE_loss: 0.505
+[Train] Iter 100/5000 | Time: 7.07s | Batch_OA: 96.35 | Batch_mIoU: 48.46 | CE_loss: 0.484
+[Train] Iter 110/5000 | Time: 6.93s | Batch_OA: 91.71 | Batch_mIoU: 46.42 | CE_loss: 0.444
+[Train] Iter 120/5000 | Time: 6.96s | Batch_OA: 95.98 | Batch_mIoU: 48.22 | CE_loss: 0.414
+[Train] Iter 130/5000 | Time: 7.05s | Batch_OA: 95.88 | Batch_mIoU: 48.55 | CE_loss: 0.467
+[Train] Iter 140/5000 | Time: 7.02s | Batch_OA: 95.60 | Batch_mIoU: 48.16 | CE_loss: 0.418
+[Train] Iter 150/5000 | Time: 6.99s | Batch_OA: 98.70 | Batch_mIoU: 49.50 | CE_loss: 0.300
+[Train] Iter 160/5000 | Time: 6.95s | Batch_OA: 96.90 | Batch_mIoU: 48.49 | CE_loss: 0.418
+[Train] Iter 170/5000 | Time: 6.86s | Batch_OA: 97.63 | Batch_mIoU: 48.83 | CE_loss: 0.454
+[Train] Iter 180/5000 | Time: 7.09s | Batch_OA: 97.38 | Batch_mIoU: 48.87 | CE_loss: 0.441
+[Train] Iter 190/5000 | Time: 6.76s | Batch_OA: 97.52 | Batch_mIoU: 49.08 | CE_loss: 0.387
+[Train] Iter 200/5000 | Time: 6.82s | Batch_OA: 99.22 | Batch_mIoU: 49.79 | CE_loss: 0.276
+[Train] Iter 210/5000 | Time: 7.07s | Batch_OA: 95.98 | Batch_mIoU: 48.67 | CE_loss: 0.427
+[Train] Iter 220/5000 | Time: 6.50s | Batch_OA: 92.94 | Batch_mIoU: 47.94 | CE_loss: 0.465
+[Train] Iter 230/5000 | Time: 7.33s | Batch_OA: 86.74 | Batch_mIoU: 43.87 | CE_loss: 0.316
+[Train] Iter 240/5000 | Time: 7.27s | Batch_OA: 94.35 | Batch_mIoU: 47.62 | CE_loss: 0.409
+[Train] Iter 250/5000 | Time: 7.54s | Batch_OA: 96.67 | Batch_mIoU: 48.52 | CE_loss: 0.392
+[Train] Iter 260/5000 | Time: 7.55s | Batch_OA: 95.44 | Batch_mIoU: 48.38 | CE_loss: 0.424
+[Train] Iter 270/5000 | Time: 7.59s | Batch_OA: 96.06 | Batch_mIoU: 49.08 | CE_loss: 0.412
+[Train] Iter 280/5000 | Time: 6.71s | Batch_OA: 97.80 | Batch_mIoU: 49.35 | CE_loss: 0.371
+[Train] Iter 290/5000 | Time: 6.59s | Batch_OA: 98.74 | Batch_mIoU: 50.19 | CE_loss: 0.295
+[Train] Iter 300/5000 | Time: 8.15s | Batch_OA: 96.86 | Batch_mIoU: 49.28 | CE_loss: 0.377
+[Train] Iter 310/5000 | Time: 7.94s | Batch_OA: 95.51 | Batch_mIoU: 48.61 | CE_loss: 0.421
+[Train] Iter 320/5000 | Time: 8.74s | Batch_OA: 95.17 | Batch_mIoU: 48.69 | CE_loss: 0.342
+[Train] Iter 330/5000 | Time: 6.53s | Batch_OA: 97.44 | Batch_mIoU: 49.12 | CE_loss: 0.336
+[Train] Iter 340/5000 | Time: 7.78s | Batch_OA: 98.04 | Batch_mIoU: 50.75 | CE_loss: 0.297
+[Train] Iter 350/5000 | Time: 8.23s | Batch_OA: 88.15 | Batch_mIoU: 44.99 | CE_loss: 0.510
+[Train] Iter 360/5000 | Time: 7.74s | Batch_OA: 86.56 | Batch_mIoU: 43.88 | CE_loss: 0.377
+[Train] Iter 370/5000 | Time: 8.78s | Batch_OA: 89.99 | Batch_mIoU: 46.14 | CE_loss: 0.365
+[Train] Iter 380/5000 | Time: 8.88s | Batch_OA: 92.90 | Batch_mIoU: 47.26 | CE_loss: 0.307
+[Train] Iter 390/5000 | Time: 10.93s | Batch_OA: 97.02 | Batch_mIoU: 48.91 | CE_loss: 0.331
+[Train] Iter 400/5000 | Time: 8.82s | Batch_OA: 98.08 | Batch_mIoU: 49.07 | CE_loss: 0.251
+[Train] Iter 410/5000 | Time: 8.75s | Batch_OA: 97.42 | Batch_mIoU: 49.17 | CE_loss: 0.399
+[Train] Iter 420/5000 | Time: 8.25s | Batch_OA: 97.47 | Batch_mIoU: 49.17 | CE_loss: 0.319
+[Train] Iter 430/5000 | Time: 8.25s | Batch_OA: 95.65 | Batch_mIoU: 48.50 | CE_loss: 0.372
+[Train] Iter 440/5000 | Time: 7.75s | Batch_OA: 89.74 | Batch_mIoU: 45.36 | CE_loss: 0.324
+[Train] Iter 450/5000 | Time: 9.32s | Batch_OA: 89.70 | Batch_mIoU: 45.55 | CE_loss: 0.306
+[Train] Iter 460/5000 | Time: 10.10s | Batch_OA: 96.00 | Batch_mIoU: 49.55 | CE_loss: 0.313
+[Train] Iter 470/5000 | Time: 8.69s | Batch_OA: 95.25 | Batch_mIoU: 48.32 | CE_loss: 0.312
+[Train] Iter 480/5000 | Time: 9.83s | Batch_OA: 98.55 | Batch_mIoU: 49.77 | CE_loss: 0.260
+[Train] Iter 490/5000 | Time: 10.14s | Batch_OA: 96.81 | Batch_mIoU: 48.87 | CE_loss: 0.336
+[Train] Iter 500/5000 | Time: 7.72s | Batch_OA: 93.42 | Batch_mIoU: 47.14 | CE_loss: 0.374
+Validating..........
+===>fire Precision: 55.43
+===>fire Recall: 22.66
+===>fire IoU: 19.17
+===>fire F1: 32.17
+===> mIoU: 65.21 mean F1: 65.21 OA: 96.60
+Save Model
+[Train] Iter 510/5000 | Time: 12.33s | Batch_OA: 96.92 | Batch_mIoU: 48.93 | CE_loss: 0.397
+[Train] Iter 520/5000 | Time: 9.82s | Batch_OA: 95.22 | Batch_mIoU: 49.39 | CE_loss: 0.434
+[Train] Iter 530/5000 | Time: 9.69s | Batch_OA: 95.30 | Batch_mIoU: 48.26 | CE_loss: 0.347
+[Train] Iter 540/5000 | Time: 10.30s | Batch_OA: 96.42 | Batch_mIoU: 49.94 | CE_loss: 0.273
+[Train] Iter 550/5000 | Time: 11.93s | Batch_OA: 95.68 | Batch_mIoU: 48.21 | CE_loss: 0.367
+[Train] Iter 560/5000 | Time: 10.86s | Batch_OA: 96.64 | Batch_mIoU: 49.76 | CE_loss: 0.327
+[Train] Iter 570/5000 | Time: 11.47s | Batch_OA: 95.38 | Batch_mIoU: 48.07 | CE_loss: 0.290
+[Train] Iter 580/5000 | Time: 9.58s | Batch_OA: 95.96 | Batch_mIoU: 48.83 | CE_loss: 0.363
+[Train] Iter 590/5000 | Time: 13.19s | Batch_OA: 96.23 | Batch_mIoU: 48.26 | CE_loss: 0.368
+[Train] Iter 600/5000 | Time: 12.11s | Batch_OA: 98.46 | Batch_mIoU: 49.71 | CE_loss: 0.211
+[Train] Iter 610/5000 | Time: 10.66s | Batch_OA: 94.54 | Batch_mIoU: 47.96 | CE_loss: 0.397
+[Train] Iter 620/5000 | Time: 11.94s | Batch_OA: 97.25 | Batch_mIoU: 49.43 | CE_loss: 0.333
+[Train] Iter 630/5000 | Time: 10.90s | Batch_OA: 98.19 | Batch_mIoU: 49.63 | CE_loss: 0.273
+[Train] Iter 640/5000 | Time: 10.91s | Batch_OA: 96.74 | Batch_mIoU: 49.37 | CE_loss: 0.274
+[Train] Iter 650/5000 | Time: 12.69s | Batch_OA: 99.66 | Batch_mIoU: 50.08 | CE_loss: 0.164
+[Train] Iter 660/5000 | Time: 11.42s | Batch_OA: 98.85 | Batch_mIoU: 49.57 | CE_loss: 0.249
+[Train] Iter 670/5000 | Time: 11.50s | Batch_OA: 96.24 | Batch_mIoU: 48.95 | CE_loss: 0.399
+[Train] Iter 680/5000 | Time: 12.63s | Batch_OA: 98.19 | Batch_mIoU: 49.51 | CE_loss: 0.217
+[Train] Iter 690/5000 | Time: 10.89s | Batch_OA: 98.28 | Batch_mIoU: 49.30 | CE_loss: 0.225
+[Train] Iter 700/5000 | Time: 11.93s | Batch_OA: 96.63 | Batch_mIoU: 49.15 | CE_loss: 0.387
+[Train] Iter 710/5000 | Time: 12.04s | Batch_OA: 97.41 | Batch_mIoU: 49.36 | CE_loss: 0.294
+[Train] Iter 720/5000 | Time: 11.56s | Batch_OA: 98.54 | Batch_mIoU: 49.27 | CE_loss: 0.279
+[Train] Iter 730/5000 | Time: 12.04s | Batch_OA: 97.52 | Batch_mIoU: 49.02 | CE_loss: 0.294
+[Train] Iter 740/5000 | Time: 12.01s | Batch_OA: 97.34 | Batch_mIoU: 49.01 | CE_loss: 0.306
+[Train] Iter 750/5000 | Time: 11.97s | Batch_OA: 97.16 | Batch_mIoU: 49.19 | CE_loss: 0.333
+[Train] Iter 760/5000 | Time: 12.87s | Batch_OA: 98.24 | Batch_mIoU: 49.93 | CE_loss: 0.244
+[Train] Iter 770/5000 | Time: 11.55s | Batch_OA: 98.29 | Batch_mIoU: 49.76 | CE_loss: 0.256
+[Train] Iter 780/5000 | Time: 12.62s | Batch_OA: 99.03 | Batch_mIoU: 50.09 | CE_loss: 0.196
+[Train] Iter 790/5000 | Time: 12.15s | Batch_OA: 96.23 | Batch_mIoU: 48.84 | CE_loss: 0.352
+[Train] Iter 800/5000 | Time: 11.43s | Batch_OA: 95.04 | Batch_mIoU: 48.30 | CE_loss: 0.374
+[Train] Iter 810/5000 | Time: 12.64s | Batch_OA: 97.58 | Batch_mIoU: 49.09 | CE_loss: 0.246
+[Train] Iter 820/5000 | Time: 11.94s | Batch_OA: 96.54 | Batch_mIoU: 49.05 | CE_loss: 0.361
+[Train] Iter 830/5000 | Time: 11.49s | Batch_OA: 98.45 | Batch_mIoU: 49.65 | CE_loss: 0.199
+[Train] Iter 840/5000 | Time: 12.56s | Batch_OA: 98.37 | Batch_mIoU: 49.57 | CE_loss: 0.212
+[Train] Iter 850/5000 | Time: 12.19s | Batch_OA: 97.72 | Batch_mIoU: 49.46 | CE_loss: 0.308
+[Train] Iter 860/5000 | Time: 12.54s | Batch_OA: 97.92 | Batch_mIoU: 50.24 | CE_loss: 0.213
+[Train] Iter 870/5000 | Time: 12.66s | Batch_OA: 96.93 | Batch_mIoU: 49.73 | CE_loss: 0.305
+[Train] Iter 880/5000 | Time: 12.78s | Batch_OA: 95.77 | Batch_mIoU: 48.21 | CE_loss: 0.445
+[Train] Iter 890/5000 | Time: 12.03s | Batch_OA: 92.57 | Batch_mIoU: 47.59 | CE_loss: 0.319
+[Train] Iter 900/5000 | Time: 12.03s | Batch_OA: 98.26 | Batch_mIoU: 49.56 | CE_loss: 0.275
+[Train] Iter 910/5000 | Time: 12.07s | Batch_OA: 96.63 | Batch_mIoU: 49.03 | CE_loss: 0.369
+[Train] Iter 920/5000 | Time: 12.52s | Batch_OA: 84.00 | Batch_mIoU: 42.50 | CE_loss: 0.547
+[Train] Iter 930/5000 | Time: 12.61s | Batch_OA: 90.64 | Batch_mIoU: 45.83 | CE_loss: 0.284
+[Train] Iter 940/5000 | Time: 12.79s | Batch_OA: 96.98 | Batch_mIoU: 48.54 | CE_loss: 0.388
+[Train] Iter 950/5000 | Time: 12.68s | Batch_OA: 96.40 | Batch_mIoU: 48.40 | CE_loss: 0.356
+[Train] Iter 960/5000 | Time: 12.72s | Batch_OA: 95.96 | Batch_mIoU: 48.33 | CE_loss: 0.225
+[Train] Iter 970/5000 | Time: 12.41s | Batch_OA: 96.91 | Batch_mIoU: 49.29 | CE_loss: 0.359
+[Train] Iter 980/5000 | Time: 12.75s | Batch_OA: 95.34 | Batch_mIoU: 48.40 | CE_loss: 0.310
+[Train] Iter 990/5000 | Time: 12.54s | Batch_OA: 95.46 | Batch_mIoU: 48.69 | CE_loss: 0.320
+[Train] Iter 1000/5000 | Time: 12.66s | Batch_OA: 94.59 | Batch_mIoU: 48.17 | CE_loss: 0.287
+Validating..........
+===>fire Precision: 42.89
+===>fire Recall: 43.07
+===>fire IoU: 27.37
+===>fire F1: 42.98
+===> mIoU: 70.44 mean F1: 70.44 OA: 95.94
+Save Model
+[Train] Iter 1010/5000 | Time: 10.77s | Batch_OA: 95.71 | Batch_mIoU: 48.42 | CE_loss: 0.370
+[Train] Iter 1020/5000 | Time: 12.73s | Batch_OA: 96.75 | Batch_mIoU: 49.36 | CE_loss: 0.256
+[Train] Iter 1030/5000 | Time: 12.55s | Batch_OA: 97.32 | Batch_mIoU: 48.69 | CE_loss: 0.215
+[Train] Iter 1040/5000 | Time: 12.74s | Batch_OA: 97.42 | Batch_mIoU: 49.01 | CE_loss: 0.322
+[Train] Iter 1050/5000 | Time: 12.70s | Batch_OA: 97.14 | Batch_mIoU: 49.17 | CE_loss: 0.354
+[Train] Iter 1060/5000 | Time: 11.95s | Batch_OA: 99.24 | Batch_mIoU: 49.62 | CE_loss: 0.178
+[Train] Iter 1070/5000 | Time: 12.66s | Batch_OA: 95.68 | Batch_mIoU: 47.99 | CE_loss: 0.405
+[Train] Iter 1080/5000 | Time: 12.43s | Batch_OA: 94.81 | Batch_mIoU: 48.04 | CE_loss: 0.368
+[Train] Iter 1090/5000 | Time: 12.57s | Batch_OA: 94.38 | Batch_mIoU: 48.12 | CE_loss: 0.430
+[Train] Iter 1100/5000 | Time: 12.10s | Batch_OA: 95.31 | Batch_mIoU: 48.40 | CE_loss: 0.321
+[Train] Iter 1110/5000 | Time: 12.69s | Batch_OA: 93.84 | Batch_mIoU: 47.62 | CE_loss: 0.319
+[Train] Iter 1120/5000 | Time: 12.65s | Batch_OA: 89.75 | Batch_mIoU: 46.34 | CE_loss: 0.368
+[Train] Iter 1130/5000 | Time: 12.80s | Batch_OA: 92.25 | Batch_mIoU: 47.54 | CE_loss: 0.455
+[Train] Iter 1140/5000 | Time: 11.96s | Batch_OA: 93.31 | Batch_mIoU: 47.90 | CE_loss: 0.336
+[Train] Iter 1150/5000 | Time: 12.55s | Batch_OA: 89.22 | Batch_mIoU: 45.85 | CE_loss: 0.369
+[Train] Iter 1160/5000 | Time: 12.48s | Batch_OA: 91.25 | Batch_mIoU: 46.58 | CE_loss: 0.278
+[Train] Iter 1170/5000 | Time: 12.14s | Batch_OA: 96.42 | Batch_mIoU: 49.35 | CE_loss: 0.289
+[Train] Iter 1180/5000 | Time: 12.65s | Batch_OA: 97.11 | Batch_mIoU: 49.12 | CE_loss: 0.314
+[Train] Iter 1190/5000 | Time: 12.05s | Batch_OA: 97.07 | Batch_mIoU: 49.25 | CE_loss: 0.247
+[Train] Iter 1200/5000 | Time: 12.80s | Batch_OA: 94.47 | Batch_mIoU: 48.42 | CE_loss: 0.347
+[Train] Iter 1210/5000 | Time: 12.76s | Batch_OA: 97.37 | Batch_mIoU: 48.73 | CE_loss: 0.191
+[Train] Iter 1220/5000 | Time: 12.72s | Batch_OA: 95.83 | Batch_mIoU: 49.39 | CE_loss: 0.487
+[Train] Iter 1230/5000 | Time: 12.55s | Batch_OA: 97.30 | Batch_mIoU: 48.97 | CE_loss: 0.226
+[Train] Iter 1240/5000 | Time: 12.57s | Batch_OA: 96.89 | Batch_mIoU: 49.48 | CE_loss: 0.251
+[Train] Iter 1250/5000 | Time: 12.78s | Batch_OA: 94.54 | Batch_mIoU: 48.43 | CE_loss: 0.359
+[Train] Iter 1260/5000 | Time: 12.69s | Batch_OA: 95.27 | Batch_mIoU: 47.75 | CE_loss: 0.169
+[Train] Iter 1270/5000 | Time: 12.59s | Batch_OA: 96.11 | Batch_mIoU: 49.11 | CE_loss: 0.357
+[Train] Iter 1280/5000 | Time: 12.90s | Batch_OA: 97.25 | Batch_mIoU: 48.82 | CE_loss: 0.178
+[Train] Iter 1290/5000 | Time: 12.75s | Batch_OA: 97.20 | Batch_mIoU: 49.41 | CE_loss: 0.367
+[Train] Iter 1300/5000 | Time: 12.62s | Batch_OA: 96.93 | Batch_mIoU: 49.71 | CE_loss: 0.221
+[Train] Iter 1310/5000 | Time: 12.54s | Batch_OA: 96.65 | Batch_mIoU: 49.36 | CE_loss: 0.307
+[Train] Iter 1320/5000 | Time: 12.76s | Batch_OA: 96.64 | Batch_mIoU: 49.57 | CE_loss: 0.329
+[Train] Iter 1330/5000 | Time: 12.54s | Batch_OA: 95.67 | Batch_mIoU: 49.01 | CE_loss: 0.410
+[Train] Iter 1340/5000 | Time: 12.84s | Batch_OA: 93.38 | Batch_mIoU: 47.71 | CE_loss: 0.316
+[Train] Iter 1350/5000 | Time: 12.78s | Batch_OA: 95.27 | Batch_mIoU: 48.47 | CE_loss: 0.241
+[Train] Iter 1360/5000 | Time: 12.46s | Batch_OA: 97.59 | Batch_mIoU: 49.71 | CE_loss: 0.334
+[Train] Iter 1370/5000 | Time: 12.59s | Batch_OA: 98.55 | Batch_mIoU: 49.91 | CE_loss: 0.309
+[Train] Iter 1380/5000 | Time: 12.56s | Batch_OA: 95.59 | Batch_mIoU: 48.80 | CE_loss: 0.375
+[Train] Iter 1390/5000 | Time: 12.70s | Batch_OA: 91.94 | Batch_mIoU: 46.49 | CE_loss: 0.371
+[Train] Iter 1400/5000 | Time: 12.65s | Batch_OA: 90.34 | Batch_mIoU: 45.86 | CE_loss: 0.512
+[Train] Iter 1410/5000 | Time: 12.82s | Batch_OA: 92.56 | Batch_mIoU: 47.50 | CE_loss: 0.290
+[Train] Iter 1420/5000 | Time: 12.53s | Batch_OA: 96.10 | Batch_mIoU: 48.80 | CE_loss: 0.351
+[Train] Iter 1430/5000 | Time: 12.58s | Batch_OA: 98.47 | Batch_mIoU: 49.74 | CE_loss: 0.194
+[Train] Iter 1440/5000 | Time: 12.66s | Batch_OA: 97.05 | Batch_mIoU: 49.29 | CE_loss: 0.321
+[Train] Iter 1450/5000 | Time: 12.29s | Batch_OA: 97.10 | Batch_mIoU: 50.08 | CE_loss: 0.300
+[Train] Iter 1460/5000 | Time: 12.64s | Batch_OA: 97.35 | Batch_mIoU: 49.25 | CE_loss: 0.289
+[Train] Iter 1470/5000 | Time: 12.90s | Batch_OA: 93.82 | Batch_mIoU: 47.58 | CE_loss: 0.355
+[Train] Iter 1480/5000 | Time: 12.81s | Batch_OA: 94.89 | Batch_mIoU: 48.69 | CE_loss: 0.299
+[Train] Iter 1490/5000 | Time: 12.81s | Batch_OA: 96.42 | Batch_mIoU: 49.61 | CE_loss: 0.254
+[Train] Iter 1500/5000 | Time: 12.77s | Batch_OA: 94.78 | Batch_mIoU: 48.57 | CE_loss: 0.316
+Validating..........
+===>fire Precision: 13.73
+===>fire Recall: 69.40
+===>fire IoU: 12.94
+===>fire F1: 22.92
+===> mIoU: 56.82 mean F1: 56.82 OA: 83.42
+[Train] Iter 1510/5000 | Time: 12.21s | Batch_OA: 93.07 | Batch_mIoU: 47.50 | CE_loss: 0.274
+[Train] Iter 1520/5000 | Time: 12.78s | Batch_OA: 97.21 | Batch_mIoU: 49.92 | CE_loss: 0.226
+[Train] Iter 1530/5000 | Time: 12.69s | Batch_OA: 95.36 | Batch_mIoU: 48.23 | CE_loss: 0.241
+[Train] Iter 1540/5000 | Time: 12.71s | Batch_OA: 96.25 | Batch_mIoU: 49.00 | CE_loss: 0.364
+[Train] Iter 1550/5000 | Time: 12.56s | Batch_OA: 95.58 | Batch_mIoU: 48.49 | CE_loss: 0.359
+[Train] Iter 1560/5000 | Time: 12.64s | Batch_OA: 97.57 | Batch_mIoU: 49.18 | CE_loss: 0.220
+[Train] Iter 1570/5000 | Time: 12.52s | Batch_OA: 95.14 | Batch_mIoU: 48.60 | CE_loss: 0.303
+[Train] Iter 1580/5000 | Time: 12.77s | Batch_OA: 96.32 | Batch_mIoU: 48.65 | CE_loss: 0.258
+[Train] Iter 1590/5000 | Time: 12.73s | Batch_OA: 97.63 | Batch_mIoU: 49.20 | CE_loss: 0.238
+[Train] Iter 1600/5000 | Time: 12.87s | Batch_OA: 98.80 | Batch_mIoU: 50.02 | CE_loss: 0.222
+[Train] Iter 1610/5000 | Time: 12.83s | Batch_OA: 93.50 | Batch_mIoU: 47.84 | CE_loss: 0.397
+[Train] Iter 1620/5000 | Time: 12.68s | Batch_OA: 97.47 | Batch_mIoU: 49.06 | CE_loss: 0.238
+[Train] Iter 1630/5000 | Time: 12.84s | Batch_OA: 97.97 | Batch_mIoU: 49.78 | CE_loss: 0.237
+[Train] Iter 1640/5000 | Time: 12.34s | Batch_OA: 97.53 | Batch_mIoU: 49.45 | CE_loss: 0.203
+[Train] Iter 1650/5000 | Time: 12.55s | Batch_OA: 95.81 | Batch_mIoU: 48.43 | CE_loss: 0.377
+[Train] Iter 1660/5000 | Time: 12.71s | Batch_OA: 89.49 | Batch_mIoU: 46.61 | CE_loss: 0.317
+[Train] Iter 1670/5000 | Time: 12.71s | Batch_OA: 93.47 | Batch_mIoU: 47.52 | CE_loss: 0.372
+[Train] Iter 1680/5000 | Time: 12.43s | Batch_OA: 93.23 | Batch_mIoU: 48.14 | CE_loss: 0.337
+[Train] Iter 1690/5000 | Time: 12.80s | Batch_OA: 95.82 | Batch_mIoU: 48.64 | CE_loss: 0.280
+[Train] Iter 1700/5000 | Time: 12.73s | Batch_OA: 97.73 | Batch_mIoU: 49.90 | CE_loss: 0.255
+[Train] Iter 1710/5000 | Time: 12.55s | Batch_OA: 97.30 | Batch_mIoU: 49.09 | CE_loss: 0.254
+[Train] Iter 1720/5000 | Time: 12.71s | Batch_OA: 97.69 | Batch_mIoU: 49.68 | CE_loss: 0.217
+[Train] Iter 1730/5000 | Time: 12.73s | Batch_OA: 95.99 | Batch_mIoU: 48.28 | CE_loss: 0.407
+[Train] Iter 1740/5000 | Time: 12.63s | Batch_OA: 97.65 | Batch_mIoU: 49.60 | CE_loss: 0.282
+[Train] Iter 1750/5000 | Time: 12.72s | Batch_OA: 96.73 | Batch_mIoU: 48.69 | CE_loss: 0.328
+[Train] Iter 1760/5000 | Time: 12.86s | Batch_OA: 94.46 | Batch_mIoU: 48.89 | CE_loss: 0.412
+[Train] Iter 1770/5000 | Time: 12.69s | Batch_OA: 94.94 | Batch_mIoU: 47.98 | CE_loss: 0.353
+[Train] Iter 1780/5000 | Time: 12.71s | Batch_OA: 95.36 | Batch_mIoU: 48.93 | CE_loss: 0.381
+[Train] Iter 1790/5000 | Time: 12.65s | Batch_OA: 94.88 | Batch_mIoU: 48.16 | CE_loss: 0.345
+[Train] Iter 1800/5000 | Time: 12.72s | Batch_OA: 95.88 | Batch_mIoU: 48.45 | CE_loss: 0.291
+[Train] Iter 1810/5000 | Time: 12.46s | Batch_OA: 98.10 | Batch_mIoU: 49.49 | CE_loss: 0.232
+[Train] Iter 1820/5000 | Time: 12.65s | Batch_OA: 95.41 | Batch_mIoU: 49.17 | CE_loss: 0.375
+[Train] Iter 1830/5000 | Time: 12.62s | Batch_OA: 92.86 | Batch_mIoU: 47.31 | CE_loss: 0.464
+[Train] Iter 1840/5000 | Time: 12.54s | Batch_OA: 94.53 | Batch_mIoU: 48.30 | CE_loss: 0.232
+[Train] Iter 1850/5000 | Time: 12.58s | Batch_OA: 94.67 | Batch_mIoU: 48.16 | CE_loss: 0.394
+[Train] Iter 1860/5000 | Time: 12.54s | Batch_OA: 95.71 | Batch_mIoU: 48.39 | CE_loss: 0.337
+[Train] Iter 1870/5000 | Time: 12.50s | Batch_OA: 95.98 | Batch_mIoU: 48.44 | CE_loss: 0.229
+[Train] Iter 1880/5000 | Time: 12.66s | Batch_OA: 97.97 | Batch_mIoU: 49.81 | CE_loss: 0.219
+[Train] Iter 1890/5000 | Time: 12.77s | Batch_OA: 97.90 | Batch_mIoU: 49.15 | CE_loss: 0.234
+[Train] Iter 1900/5000 | Time: 12.64s | Batch_OA: 99.03 | Batch_mIoU: 49.66 | CE_loss: 0.116
+[Train] Iter 1910/5000 | Time: 12.62s | Batch_OA: 97.76 | Batch_mIoU: 49.62 | CE_loss: 0.221
+[Train] Iter 1920/5000 | Time: 12.77s | Batch_OA: 98.05 | Batch_mIoU: 49.08 | CE_loss: 0.225
+[Train] Iter 1930/5000 | Time: 12.34s | Batch_OA: 98.96 | Batch_mIoU: 50.12 | CE_loss: 0.139
+[Train] Iter 1940/5000 | Time: 12.70s | Batch_OA: 97.07 | Batch_mIoU: 49.36 | CE_loss: 0.339
+[Train] Iter 1950/5000 | Time: 12.70s | Batch_OA: 96.57 | Batch_mIoU: 48.32 | CE_loss: 0.191
+[Train] Iter 1960/5000 | Time: 12.58s | Batch_OA: 94.30 | Batch_mIoU: 48.56 | CE_loss: 0.268
+[Train] Iter 1970/5000 | Time: 12.86s | Batch_OA: 96.80 | Batch_mIoU: 49.93 | CE_loss: 0.251
+[Train] Iter 1980/5000 | Time: 12.58s | Batch_OA: 94.86 | Batch_mIoU: 48.69 | CE_loss: 0.227
+[Train] Iter 1990/5000 | Time: 12.75s | Batch_OA: 95.87 | Batch_mIoU: 49.55 | CE_loss: 0.275
+[Train] Iter 2000/5000 | Time: 12.74s | Batch_OA: 97.68 | Batch_mIoU: 49.17 | CE_loss: 0.229
+Validating..........
+===>fire Precision: 28.27
+===>fire Recall: 32.46
+===>fire IoU: 17.80
+===>fire F1: 30.22
+===> mIoU: 63.73 mean F1: 63.73 OA: 94.67
+[Train] Iter 2010/5000 | Time: 12.17s | Batch_OA: 95.91 | Batch_mIoU: 48.90 | CE_loss: 0.340
+[Train] Iter 2020/5000 | Time: 12.77s | Batch_OA: 94.55 | Batch_mIoU: 47.80 | CE_loss: 0.197
+[Train] Iter 2030/5000 | Time: 12.30s | Batch_OA: 91.81 | Batch_mIoU: 46.72 | CE_loss: 0.460
+[Train] Iter 2040/5000 | Time: 12.41s | Batch_OA: 97.87 | Batch_mIoU: 49.29 | CE_loss: 0.185
+[Train] Iter 2050/5000 | Time: 12.53s | Batch_OA: 97.79 | Batch_mIoU: 50.04 | CE_loss: 0.266
+[Train] Iter 2060/5000 | Time: 12.45s | Batch_OA: 96.72 | Batch_mIoU: 49.03 | CE_loss: 0.359
+[Train] Iter 2070/5000 | Time: 12.58s | Batch_OA: 97.24 | Batch_mIoU: 49.62 | CE_loss: 0.221
+[Train] Iter 2080/5000 | Time: 12.65s | Batch_OA: 98.14 | Batch_mIoU: 49.56 | CE_loss: 0.304
+[Train] Iter 2090/5000 | Time: 12.66s | Batch_OA: 98.70 | Batch_mIoU: 50.04 | CE_loss: 0.189
+[Train] Iter 2100/5000 | Time: 12.69s | Batch_OA: 97.50 | Batch_mIoU: 50.01 | CE_loss: 0.267
+[Train] Iter 2110/5000 | Time: 12.68s | Batch_OA: 97.99 | Batch_mIoU: 49.24 | CE_loss: 0.235
+[Train] Iter 2120/5000 | Time: 12.31s | Batch_OA: 98.86 | Batch_mIoU: 50.11 | CE_loss: 0.218
+[Train] Iter 2130/5000 | Time: 12.85s | Batch_OA: 96.26 | Batch_mIoU: 49.46 | CE_loss: 0.279
+[Train] Iter 2140/5000 | Time: 12.59s | Batch_OA: 96.74 | Batch_mIoU: 49.66 | CE_loss: 0.319
+[Train] Iter 2150/5000 | Time: 12.47s | Batch_OA: 92.93 | Batch_mIoU: 47.70 | CE_loss: 0.276
+[Train] Iter 2160/5000 | Time: 12.64s | Batch_OA: 92.14 | Batch_mIoU: 46.79 | CE_loss: 0.268
+[Train] Iter 2170/5000 | Time: 12.57s | Batch_OA: 98.32 | Batch_mIoU: 49.68 | CE_loss: 0.233
+[Train] Iter 2180/5000 | Time: 12.69s | Batch_OA: 99.33 | Batch_mIoU: 50.23 | CE_loss: 0.121
+[Train] Iter 2190/5000 | Time: 12.40s | Batch_OA: 97.99 | Batch_mIoU: 49.76 | CE_loss: 0.238
+[Train] Iter 2200/5000 | Time: 12.64s | Batch_OA: 98.39 | Batch_mIoU: 49.20 | CE_loss: 0.247
+[Train] Iter 2210/5000 | Time: 12.54s | Batch_OA: 94.98 | Batch_mIoU: 48.76 | CE_loss: 0.369
+[Train] Iter 2220/5000 | Time: 12.55s | Batch_OA: 95.26 | Batch_mIoU: 48.23 | CE_loss: 0.233
+[Train] Iter 2230/5000 | Time: 12.63s | Batch_OA: 95.90 | Batch_mIoU: 48.73 | CE_loss: 0.466
+[Train] Iter 2240/5000 | Time: 12.44s | Batch_OA: 97.18 | Batch_mIoU: 49.59 | CE_loss: 0.230
+[Train] Iter 2250/5000 | Time: 12.61s | Batch_OA: 96.62 | Batch_mIoU: 49.18 | CE_loss: 0.267
+[Train] Iter 2260/5000 | Time: 12.55s | Batch_OA: 98.45 | Batch_mIoU: 49.79 | CE_loss: 0.151
+[Train] Iter 2270/5000 | Time: 12.61s | Batch_OA: 96.80 | Batch_mIoU: 49.10 | CE_loss: 0.264
+[Train] Iter 2280/5000 | Time: 12.83s | Batch_OA: 99.24 | Batch_mIoU: 49.77 | CE_loss: 0.136
+[Train] Iter 2290/5000 | Time: 12.59s | Batch_OA: 98.36 | Batch_mIoU: 49.55 | CE_loss: 0.222
+[Train] Iter 2300/5000 | Time: 12.77s | Batch_OA: 97.03 | Batch_mIoU: 49.62 | CE_loss: 0.283
+[Train] Iter 2310/5000 | Time: 12.73s | Batch_OA: 99.30 | Batch_mIoU: 49.82 | CE_loss: 0.091
+[Train] Iter 2320/5000 | Time: 12.55s | Batch_OA: 96.19 | Batch_mIoU: 48.42 | CE_loss: 0.497
+[Train] Iter 2330/5000 | Time: 12.48s | Batch_OA: 94.49 | Batch_mIoU: 48.53 | CE_loss: 0.354
+[Train] Iter 2340/5000 | Time: 12.76s | Batch_OA: 95.83 | Batch_mIoU: 48.68 | CE_loss: 0.269
+[Train] Iter 2350/5000 | Time: 12.65s | Batch_OA: 96.79 | Batch_mIoU: 49.60 | CE_loss: 0.289
+[Train] Iter 2360/5000 | Time: 12.58s | Batch_OA: 97.40 | Batch_mIoU: 49.78 | CE_loss: 0.184
+[Train] Iter 2370/5000 | Time: 12.73s | Batch_OA: 95.71 | Batch_mIoU: 48.59 | CE_loss: 0.272
+[Train] Iter 2380/5000 | Time: 12.52s | Batch_OA: 96.29 | Batch_mIoU: 49.16 | CE_loss: 0.279
+[Train] Iter 2390/5000 | Time: 12.59s | Batch_OA: 98.51 | Batch_mIoU: 50.36 | CE_loss: 0.167
+[Train] Iter 2400/5000 | Time: 12.75s | Batch_OA: 94.99 | Batch_mIoU: 48.04 | CE_loss: 0.325
+[Train] Iter 2410/5000 | Time: 12.32s | Batch_OA: 93.80 | Batch_mIoU: 48.17 | CE_loss: 0.259
+[Train] Iter 2420/5000 | Time: 12.75s | Batch_OA: 97.20 | Batch_mIoU: 49.17 | CE_loss: 0.263
+[Train] Iter 2430/5000 | Time: 12.59s | Batch_OA: 96.43 | Batch_mIoU: 48.58 | CE_loss: 0.293
+[Train] Iter 2440/5000 | Time: 12.40s | Batch_OA: 97.97 | Batch_mIoU: 49.47 | CE_loss: 0.173
+[Train] Iter 2450/5000 | Time: 12.59s | Batch_OA: 98.25 | Batch_mIoU: 50.48 | CE_loss: 0.199
+[Train] Iter 2460/5000 | Time: 12.56s | Batch_OA: 96.35 | Batch_mIoU: 48.68 | CE_loss: 0.218
+[Train] Iter 2470/5000 | Time: 12.52s | Batch_OA: 97.27 | Batch_mIoU: 49.36 | CE_loss: 0.194
+[Train] Iter 2480/5000 | Time: 12.33s | Batch_OA: 97.85 | Batch_mIoU: 49.62 | CE_loss: 0.191
+[Train] Iter 2490/5000 | Time: 12.64s | Batch_OA: 97.86 | Batch_mIoU: 49.17 | CE_loss: 0.247
+[Train] Iter 2500/5000 | Time: 12.59s | Batch_OA: 98.44 | Batch_mIoU: 49.99 | CE_loss: 0.228
+Validating..........
+===>fire Precision: 43.13
+===>fire Recall: 43.56
+===>fire IoU: 27.67
+===>fire F1: 43.34
+===> mIoU: 70.62 mean F1: 70.62 OA: 95.95
+Save Model
+[Train] Iter 2510/5000 | Time: 11.23s | Batch_OA: 98.15 | Batch_mIoU: 49.64 | CE_loss: 0.227
+[Train] Iter 2520/5000 | Time: 12.65s | Batch_OA: 96.76 | Batch_mIoU: 49.01 | CE_loss: 0.230
+[Train] Iter 2530/5000 | Time: 12.62s | Batch_OA: 96.57 | Batch_mIoU: 48.56 | CE_loss: 0.226
+[Train] Iter 2540/5000 | Time: 12.39s | Batch_OA: 99.04 | Batch_mIoU: 49.52 | CE_loss: 0.188
+[Train] Iter 2550/5000 | Time: 12.53s | Batch_OA: 97.89 | Batch_mIoU: 49.63 | CE_loss: 0.187
+[Train] Iter 2560/5000 | Time: 12.68s | Batch_OA: 95.42 | Batch_mIoU: 49.39 | CE_loss: 0.308
+[Train] Iter 2570/5000 | Time: 12.53s | Batch_OA: 96.82 | Batch_mIoU: 49.48 | CE_loss: 0.279
+[Train] Iter 2580/5000 | Time: 12.74s | Batch_OA: 94.36 | Batch_mIoU: 48.23 | CE_loss: 0.231
+[Train] Iter 2590/5000 | Time: 12.55s | Batch_OA: 91.20 | Batch_mIoU: 46.13 | CE_loss: 0.301
+[Train] Iter 2600/5000 | Time: 12.59s | Batch_OA: 93.01 | Batch_mIoU: 47.21 | CE_loss: 0.329
+[Train] Iter 2610/5000 | Time: 12.82s | Batch_OA: 97.18 | Batch_mIoU: 49.31 | CE_loss: 0.252
+[Train] Iter 2620/5000 | Time: 12.70s | Batch_OA: 96.59 | Batch_mIoU: 49.38 | CE_loss: 0.355
+[Train] Iter 2630/5000 | Time: 12.53s | Batch_OA: 95.59 | Batch_mIoU: 49.19 | CE_loss: 0.242
+[Train] Iter 2640/5000 | Time: 12.74s | Batch_OA: 96.89 | Batch_mIoU: 49.13 | CE_loss: 0.288
+[Train] Iter 2650/5000 | Time: 12.50s | Batch_OA: 95.35 | Batch_mIoU: 48.81 | CE_loss: 0.294
+[Train] Iter 2660/5000 | Time: 12.60s | Batch_OA: 97.84 | Batch_mIoU: 49.32 | CE_loss: 0.195
+[Train] Iter 2670/5000 | Time: 12.67s | Batch_OA: 96.84 | Batch_mIoU: 49.14 | CE_loss: 0.217
+[Train] Iter 2680/5000 | Time: 12.76s | Batch_OA: 95.88 | Batch_mIoU: 48.72 | CE_loss: 0.195
+[Train] Iter 2690/5000 | Time: 12.66s | Batch_OA: 95.76 | Batch_mIoU: 49.05 | CE_loss: 0.187
+[Train] Iter 2700/5000 | Time: 12.71s | Batch_OA: 96.60 | Batch_mIoU: 49.66 | CE_loss: 0.259
+[Train] Iter 2710/5000 | Time: 12.58s | Batch_OA: 95.87 | Batch_mIoU: 48.69 | CE_loss: 0.195
+[Train] Iter 2720/5000 | Time: 12.62s | Batch_OA: 95.07 | Batch_mIoU: 48.53 | CE_loss: 0.243
+[Train] Iter 2730/5000 | Time: 12.60s | Batch_OA: 97.82 | Batch_mIoU: 49.41 | CE_loss: 0.161
+[Train] Iter 2740/5000 | Time: 12.34s | Batch_OA: 93.53 | Batch_mIoU: 48.02 | CE_loss: 0.311
+[Train] Iter 2750/5000 | Time: 12.42s | Batch_OA: 94.35 | Batch_mIoU: 48.30 | CE_loss: 0.218
+[Train] Iter 2760/5000 | Time: 12.67s | Batch_OA: 97.76 | Batch_mIoU: 49.58 | CE_loss: 0.263
+[Train] Iter 2770/5000 | Time: 12.57s | Batch_OA: 97.15 | Batch_mIoU: 49.72 | CE_loss: 0.279
+[Train] Iter 2780/5000 | Time: 12.59s | Batch_OA: 96.46 | Batch_mIoU: 49.69 | CE_loss: 0.242
+[Train] Iter 2790/5000 | Time: 12.64s | Batch_OA: 94.43 | Batch_mIoU: 48.21 | CE_loss: 0.234
+[Train] Iter 2800/5000 | Time: 12.67s | Batch_OA: 97.12 | Batch_mIoU: 48.96 | CE_loss: 0.196
+[Train] Iter 2810/5000 | Time: 12.28s | Batch_OA: 95.83 | Batch_mIoU: 49.33 | CE_loss: 0.236
+[Train] Iter 2820/5000 | Time: 12.76s | Batch_OA: 96.76 | Batch_mIoU: 49.22 | CE_loss: 0.185
+[Train] Iter 2830/5000 | Time: 12.52s | Batch_OA: 95.14 | Batch_mIoU: 49.85 | CE_loss: 0.282
+[Train] Iter 2840/5000 | Time: 12.53s | Batch_OA: 99.13 | Batch_mIoU: 50.63 | CE_loss: 0.132
+[Train] Iter 2850/5000 | Time: 12.72s | Batch_OA: 98.54 | Batch_mIoU: 49.66 | CE_loss: 0.129
+[Train] Iter 2860/5000 | Time: 12.59s | Batch_OA: 95.95 | Batch_mIoU: 49.01 | CE_loss: 0.303
+[Train] Iter 2870/5000 | Time: 12.58s | Batch_OA: 95.88 | Batch_mIoU: 48.66 | CE_loss: 0.207
+[Train] Iter 2880/5000 | Time: 12.51s | Batch_OA: 97.31 | Batch_mIoU: 49.73 | CE_loss: 0.178
+[Train] Iter 2890/5000 | Time: 12.80s | Batch_OA: 97.85 | Batch_mIoU: 49.23 | CE_loss: 0.156
+[Train] Iter 2900/5000 | Time: 12.58s | Batch_OA: 97.64 | Batch_mIoU: 49.13 | CE_loss: 0.202
+[Train] Iter 2910/5000 | Time: 12.66s | Batch_OA: 96.05 | Batch_mIoU: 49.25 | CE_loss: 0.313
+[Train] Iter 2920/5000 | Time: 12.58s | Batch_OA: 97.75 | Batch_mIoU: 49.69 | CE_loss: 0.190
+[Train] Iter 2930/5000 | Time: 12.42s | Batch_OA: 97.15 | Batch_mIoU: 49.43 | CE_loss: 0.165
+[Train] Iter 2940/5000 | Time: 12.69s | Batch_OA: 96.29 | Batch_mIoU: 49.28 | CE_loss: 0.250
+[Train] Iter 2950/5000 | Time: 12.60s | Batch_OA: 95.87 | Batch_mIoU: 48.92 | CE_loss: 0.306
+[Train] Iter 2960/5000 | Time: 12.39s | Batch_OA: 95.35 | Batch_mIoU: 48.07 | CE_loss: 0.253
+[Train] Iter 2970/5000 | Time: 12.69s | Batch_OA: 96.75 | Batch_mIoU: 49.62 | CE_loss: 0.232
+[Train] Iter 2980/5000 | Time: 12.56s | Batch_OA: 98.60 | Batch_mIoU: 49.88 | CE_loss: 0.188
+[Train] Iter 2990/5000 | Time: 12.56s | Batch_OA: 96.66 | Batch_mIoU: 49.50 | CE_loss: 0.230
+[Train] Iter 3000/5000 | Time: 12.71s | Batch_OA: 96.48 | Batch_mIoU: 49.18 | CE_loss: 0.242
+Validating..........
+===>fire Precision: 36.82
+===>fire Recall: 45.40
+===>fire IoU: 25.52
+===>fire F1: 40.67
+===> mIoU: 69.11 mean F1: 69.11 OA: 95.29
+[Train] Iter 3010/5000 | Time: 12.05s | Batch_OA: 99.06 | Batch_mIoU: 49.84 | CE_loss: 0.194
+[Train] Iter 3020/5000 | Time: 12.56s | Batch_OA: 97.56 | Batch_mIoU: 48.99 | CE_loss: 0.296
+[Train] Iter 3030/5000 | Time: 12.58s | Batch_OA: 97.03 | Batch_mIoU: 50.13 | CE_loss: 0.193
+[Train] Iter 3040/5000 | Time: 12.41s | Batch_OA: 97.46 | Batch_mIoU: 50.16 | CE_loss: 0.210
+[Train] Iter 3050/5000 | Time: 12.45s | Batch_OA: 97.61 | Batch_mIoU: 49.78 | CE_loss: 0.215
+[Train] Iter 3060/5000 | Time: 12.71s | Batch_OA: 98.76 | Batch_mIoU: 50.17 | CE_loss: 0.155
+[Train] Iter 3070/5000 | Time: 12.26s | Batch_OA: 95.16 | Batch_mIoU: 48.72 | CE_loss: 0.213
+[Train] Iter 3080/5000 | Time: 12.74s | Batch_OA: 93.18 | Batch_mIoU: 47.10 | CE_loss: 0.341
+[Train] Iter 3090/5000 | Time: 12.49s | Batch_OA: 93.08 | Batch_mIoU: 47.46 | CE_loss: 0.304
+[Train] Iter 3100/5000 | Time: 12.63s | Batch_OA: 93.60 | Batch_mIoU: 47.86 | CE_loss: 0.269
+[Train] Iter 3110/5000 | Time: 12.73s | Batch_OA: 93.04 | Batch_mIoU: 47.51 | CE_loss: 0.394
+[Train] Iter 3120/5000 | Time: 12.54s | Batch_OA: 90.84 | Batch_mIoU: 46.48 | CE_loss: 0.424
+[Train] Iter 3130/5000 | Time: 12.70s | Batch_OA: 93.19 | Batch_mIoU: 47.28 | CE_loss: 0.367
+[Train] Iter 3140/5000 | Time: 12.53s | Batch_OA: 93.94 | Batch_mIoU: 47.47 | CE_loss: 0.277
+[Train] Iter 3150/5000 | Time: 12.63s | Batch_OA: 94.76 | Batch_mIoU: 48.64 | CE_loss: 0.281
+[Train] Iter 3160/5000 | Time: 12.67s | Batch_OA: 95.87 | Batch_mIoU: 48.83 | CE_loss: 0.187
+[Train] Iter 3170/5000 | Time: 12.57s | Batch_OA: 98.33 | Batch_mIoU: 49.63 | CE_loss: 0.188
+[Train] Iter 3180/5000 | Time: 12.66s | Batch_OA: 98.27 | Batch_mIoU: 49.71 | CE_loss: 0.156
+[Train] Iter 3190/5000 | Time: 12.79s | Batch_OA: 98.15 | Batch_mIoU: 49.56 | CE_loss: 0.190
+[Train] Iter 3200/5000 | Time: 12.40s | Batch_OA: 97.33 | Batch_mIoU: 50.25 | CE_loss: 0.181
+[Train] Iter 3210/5000 | Time: 12.54s | Batch_OA: 96.32 | Batch_mIoU: 48.55 | CE_loss: 0.194
+[Train] Iter 3220/5000 | Time: 12.21s | Batch_OA: 93.27 | Batch_mIoU: 48.53 | CE_loss: 0.266
+[Train] Iter 3230/5000 | Time: 12.36s | Batch_OA: 96.74 | Batch_mIoU: 48.53 | CE_loss: 0.150
+[Train] Iter 3240/5000 | Time: 12.67s | Batch_OA: 94.69 | Batch_mIoU: 47.58 | CE_loss: 0.198
+[Train] Iter 3250/5000 | Time: 12.51s | Batch_OA: 94.97 | Batch_mIoU: 49.09 | CE_loss: 0.248
+[Train] Iter 3260/5000 | Time: 12.55s | Batch_OA: 97.22 | Batch_mIoU: 49.39 | CE_loss: 0.198
+[Train] Iter 3270/5000 | Time: 12.59s | Batch_OA: 95.34 | Batch_mIoU: 49.33 | CE_loss: 0.343
+[Train] Iter 3280/5000 | Time: 12.63s | Batch_OA: 96.09 | Batch_mIoU: 49.32 | CE_loss: 0.193
+[Train] Iter 3290/5000 | Time: 12.39s | Batch_OA: 95.09 | Batch_mIoU: 49.13 | CE_loss: 0.298
+[Train] Iter 3300/5000 | Time: 12.69s | Batch_OA: 94.26 | Batch_mIoU: 48.34 | CE_loss: 0.287
+[Train] Iter 3310/5000 | Time: 12.61s | Batch_OA: 95.02 | Batch_mIoU: 48.65 | CE_loss: 0.234
+[Train] Iter 3320/5000 | Time: 12.53s | Batch_OA: 96.42 | Batch_mIoU: 48.67 | CE_loss: 0.253
+[Train] Iter 3330/5000 | Time: 12.63s | Batch_OA: 96.09 | Batch_mIoU: 49.10 | CE_loss: 0.267
+[Train] Iter 3340/5000 | Time: 12.82s | Batch_OA: 95.90 | Batch_mIoU: 49.06 | CE_loss: 0.198
+[Train] Iter 3350/5000 | Time: 12.55s | Batch_OA: 94.73 | Batch_mIoU: 48.80 | CE_loss: 0.283
+[Train] Iter 3360/5000 | Time: 12.59s | Batch_OA: 93.55 | Batch_mIoU: 47.98 | CE_loss: 0.258
+[Train] Iter 3370/5000 | Time: 12.71s | Batch_OA: 96.66 | Batch_mIoU: 48.93 | CE_loss: 0.315
+[Train] Iter 3380/5000 | Time: 12.45s | Batch_OA: 97.00 | Batch_mIoU: 49.11 | CE_loss: 0.311
+[Train] Iter 3390/5000 | Time: 12.64s | Batch_OA: 95.82 | Batch_mIoU: 48.68 | CE_loss: 0.236
+[Train] Iter 3400/5000 | Time: 12.57s | Batch_OA: 95.98 | Batch_mIoU: 49.22 | CE_loss: 0.191
+[Train] Iter 3410/5000 | Time: 12.52s | Batch_OA: 96.95 | Batch_mIoU: 48.96 | CE_loss: 0.250
+[Train] Iter 3420/5000 | Time: 12.71s | Batch_OA: 95.51 | Batch_mIoU: 48.63 | CE_loss: 0.275
+[Train] Iter 3430/5000 | Time: 12.73s | Batch_OA: 97.51 | Batch_mIoU: 49.86 | CE_loss: 0.193
+[Train] Iter 3440/5000 | Time: 12.42s | Batch_OA: 98.15 | Batch_mIoU: 50.01 | CE_loss: 0.210
+[Train] Iter 3450/5000 | Time: 12.60s | Batch_OA: 96.94 | Batch_mIoU: 48.93 | CE_loss: 0.287
+[Train] Iter 3460/5000 | Time: 12.52s | Batch_OA: 93.93 | Batch_mIoU: 48.65 | CE_loss: 0.250
+[Train] Iter 3470/5000 | Time: 12.46s | Batch_OA: 94.18 | Batch_mIoU: 48.04 | CE_loss: 0.275
+[Train] Iter 3480/5000 | Time: 12.55s | Batch_OA: 96.64 | Batch_mIoU: 48.39 | CE_loss: 0.231
+[Train] Iter 3490/5000 | Time: 12.64s | Batch_OA: 97.79 | Batch_mIoU: 49.23 | CE_loss: 0.172
+[Train] Iter 3500/5000 | Time: 12.64s | Batch_OA: 96.02 | Batch_mIoU: 49.09 | CE_loss: 0.272
+Validating..........
+===>fire Precision: 18.73
+===>fire Recall: 53.30
+===>fire IoU: 16.09
+===>fire F1: 27.72
+===> mIoU: 61.21 mean F1: 61.21 OA: 90.12
+[Train] Iter 3510/5000 | Time: 12.06s | Batch_OA: 95.61 | Batch_mIoU: 49.18 | CE_loss: 0.237
+[Train] Iter 3520/5000 | Time: 12.69s | Batch_OA: 92.92 | Batch_mIoU: 48.01 | CE_loss: 0.493
+[Train] Iter 3530/5000 | Time: 12.48s | Batch_OA: 96.35 | Batch_mIoU: 48.47 | CE_loss: 0.244
+[Train] Iter 3540/5000 | Time: 12.46s | Batch_OA: 94.81 | Batch_mIoU: 48.13 | CE_loss: 0.293
+[Train] Iter 3550/5000 | Time: 12.32s | Batch_OA: 96.84 | Batch_mIoU: 49.44 | CE_loss: 0.181
+[Train] Iter 3560/5000 | Time: 12.61s | Batch_OA: 97.06 | Batch_mIoU: 48.82 | CE_loss: 0.166
+[Train] Iter 3570/5000 | Time: 12.41s | Batch_OA: 96.15 | Batch_mIoU: 49.33 | CE_loss: 0.331
+[Train] Iter 3580/5000 | Time: 12.51s | Batch_OA: 95.24 | Batch_mIoU: 48.74 | CE_loss: 0.225
+[Train] Iter 3590/5000 | Time: 12.57s | Batch_OA: 97.17 | Batch_mIoU: 49.24 | CE_loss: 0.140
+[Train] Iter 3600/5000 | Time: 12.41s | Batch_OA: 96.84 | Batch_mIoU: 49.64 | CE_loss: 0.239
+[Train] Iter 3610/5000 | Time: 12.68s | Batch_OA: 96.25 | Batch_mIoU: 48.84 | CE_loss: 0.333
+[Train] Iter 3620/5000 | Time: 12.45s | Batch_OA: 95.66 | Batch_mIoU: 48.41 | CE_loss: 0.299
+[Train] Iter 3630/5000 | Time: 12.39s | Batch_OA: 96.78 | Batch_mIoU: 49.41 | CE_loss: 0.355
+[Train] Iter 3640/5000 | Time: 12.61s | Batch_OA: 97.45 | Batch_mIoU: 49.25 | CE_loss: 0.231
+[Train] Iter 3650/5000 | Time: 12.70s | Batch_OA: 99.12 | Batch_mIoU: 50.62 | CE_loss: 0.164
+[Train] Iter 3660/5000 | Time: 12.50s | Batch_OA: 92.96 | Batch_mIoU: 47.88 | CE_loss: 0.223
+[Train] Iter 3670/5000 | Time: 12.71s | Batch_OA: 95.02 | Batch_mIoU: 49.02 | CE_loss: 0.268
+[Train] Iter 3680/5000 | Time: 12.82s | Batch_OA: 95.95 | Batch_mIoU: 48.94 | CE_loss: 0.223
+[Train] Iter 3690/5000 | Time: 12.53s | Batch_OA: 97.06 | Batch_mIoU: 49.46 | CE_loss: 0.299
+[Train] Iter 3700/5000 | Time: 12.24s | Batch_OA: 97.40 | Batch_mIoU: 49.65 | CE_loss: 0.126
+[Train] Iter 3710/5000 | Time: 12.61s | Batch_OA: 96.79 | Batch_mIoU: 49.89 | CE_loss: 0.165
+[Train] Iter 3720/5000 | Time: 12.43s | Batch_OA: 95.94 | Batch_mIoU: 48.71 | CE_loss: 0.216
+[Train] Iter 3730/5000 | Time: 12.52s | Batch_OA: 96.33 | Batch_mIoU: 48.82 | CE_loss: 0.292
+[Train] Iter 3740/5000 | Time: 12.69s | Batch_OA: 97.03 | Batch_mIoU: 49.46 | CE_loss: 0.148
+[Train] Iter 3750/5000 | Time: 12.57s | Batch_OA: 97.43 | Batch_mIoU: 49.39 | CE_loss: 0.306
+[Train] Iter 3760/5000 | Time: 12.61s | Batch_OA: 96.83 | Batch_mIoU: 48.98 | CE_loss: 0.235
+[Train] Iter 3770/5000 | Time: 12.74s | Batch_OA: 93.89 | Batch_mIoU: 48.32 | CE_loss: 0.334
+[Train] Iter 3780/5000 | Time: 12.12s | Batch_OA: 96.77 | Batch_mIoU: 49.08 | CE_loss: 0.176
+[Train] Iter 3790/5000 | Time: 12.70s | Batch_OA: 97.43 | Batch_mIoU: 49.49 | CE_loss: 0.161
+[Train] Iter 3800/5000 | Time: 12.69s | Batch_OA: 96.09 | Batch_mIoU: 49.15 | CE_loss: 0.330
+[Train] Iter 3810/5000 | Time: 12.53s | Batch_OA: 94.44 | Batch_mIoU: 48.47 | CE_loss: 0.341
+[Train] Iter 3820/5000 | Time: 12.86s | Batch_OA: 98.25 | Batch_mIoU: 50.34 | CE_loss: 0.134
+[Train] Iter 3830/5000 | Time: 12.61s | Batch_OA: 94.09 | Batch_mIoU: 48.49 | CE_loss: 0.447
+[Train] Iter 3840/5000 | Time: 12.55s | Batch_OA: 96.67 | Batch_mIoU: 48.62 | CE_loss: 0.325
+[Train] Iter 3850/5000 | Time: 12.40s | Batch_OA: 99.58 | Batch_mIoU: 49.91 | CE_loss: 0.086
+[Train] Iter 3860/5000 | Time: 12.57s | Batch_OA: 97.36 | Batch_mIoU: 49.24 | CE_loss: 0.332
+[Train] Iter 3870/5000 | Time: 12.31s | Batch_OA: 97.43 | Batch_mIoU: 49.17 | CE_loss: 0.159
+[Train] Iter 3880/5000 | Time: 12.60s | Batch_OA: 98.17 | Batch_mIoU: 49.63 | CE_loss: 0.186
+[Train] Iter 3890/5000 | Time: 12.80s | Batch_OA: 97.40 | Batch_mIoU: 49.67 | CE_loss: 0.274
+[Train] Iter 3900/5000 | Time: 12.50s | Batch_OA: 95.12 | Batch_mIoU: 48.27 | CE_loss: 0.307
+[Train] Iter 3910/5000 | Time: 12.54s | Batch_OA: 95.09 | Batch_mIoU: 48.69 | CE_loss: 0.240
+[Train] Iter 3920/5000 | Time: 12.55s | Batch_OA: 97.28 | Batch_mIoU: 50.10 | CE_loss: 0.156
+[Train] Iter 3930/5000 | Time: 12.35s | Batch_OA: 96.12 | Batch_mIoU: 49.40 | CE_loss: 0.210
+[Train] Iter 3940/5000 | Time: 12.58s | Batch_OA: 97.81 | Batch_mIoU: 49.45 | CE_loss: 0.208
+[Train] Iter 3950/5000 | Time: 12.63s | Batch_OA: 96.58 | Batch_mIoU: 48.90 | CE_loss: 0.168
+[Train] Iter 3960/5000 | Time: 12.41s | Batch_OA: 96.50 | Batch_mIoU: 48.96 | CE_loss: 0.265
+[Train] Iter 3970/5000 | Time: 12.67s | Batch_OA: 96.33 | Batch_mIoU: 48.91 | CE_loss: 0.227
+[Train] Iter 3980/5000 | Time: 12.64s | Batch_OA: 96.91 | Batch_mIoU: 50.12 | CE_loss: 0.182
+[Train] Iter 3990/5000 | Time: 12.41s | Batch_OA: 95.11 | Batch_mIoU: 48.40 | CE_loss: 0.254
+[Train] Iter 4000/5000 | Time: 12.46s | Batch_OA: 96.11 | Batch_mIoU: 49.20 | CE_loss: 0.312
+Validating..........
+===>fire Precision: 34.21
+===>fire Recall: 48.23
+===>fire IoU: 25.02
+===>fire F1: 40.03
+===> mIoU: 68.67 mean F1: 68.67 OA: 94.87
+[Train] Iter 4010/5000 | Time: 12.07s | Batch_OA: 96.65 | Batch_mIoU: 49.18 | CE_loss: 0.225
+[Train] Iter 4020/5000 | Time: 12.46s | Batch_OA: 98.45 | Batch_mIoU: 49.25 | CE_loss: 0.137
+[Train] Iter 4030/5000 | Time: 12.20s | Batch_OA: 94.17 | Batch_mIoU: 49.17 | CE_loss: 0.331
+[Train] Iter 4040/5000 | Time: 12.34s | Batch_OA: 97.20 | Batch_mIoU: 49.11 | CE_loss: 0.207
+[Train] Iter 4050/5000 | Time: 12.50s | Batch_OA: 94.15 | Batch_mIoU: 48.32 | CE_loss: 0.338
+[Train] Iter 4060/5000 | Time: 12.42s | Batch_OA: 95.68 | Batch_mIoU: 48.51 | CE_loss: 0.180
+[Train] Iter 4070/5000 | Time: 12.61s | Batch_OA: 96.21 | Batch_mIoU: 48.81 | CE_loss: 0.193
+[Train] Iter 4080/5000 | Time: 12.62s | Batch_OA: 97.72 | Batch_mIoU: 49.27 | CE_loss: 0.161
+[Train] Iter 4090/5000 | Time: 12.39s | Batch_OA: 98.94 | Batch_mIoU: 50.47 | CE_loss: 0.149
+[Train] Iter 4100/5000 | Time: 12.50s | Batch_OA: 95.03 | Batch_mIoU: 48.70 | CE_loss: 0.221
+[Train] Iter 4110/5000 | Time: 12.38s | Batch_OA: 95.43 | Batch_mIoU: 48.36 | CE_loss: 0.176
+[Train] Iter 4120/5000 | Time: 12.63s | Batch_OA: 96.13 | Batch_mIoU: 48.49 | CE_loss: 0.164
+[Train] Iter 4130/5000 | Time: 12.63s | Batch_OA: 95.71 | Batch_mIoU: 49.12 | CE_loss: 0.261
+[Train] Iter 4140/5000 | Time: 12.54s | Batch_OA: 95.09 | Batch_mIoU: 48.17 | CE_loss: 0.326
+[Train] Iter 4150/5000 | Time: 12.60s | Batch_OA: 95.08 | Batch_mIoU: 48.80 | CE_loss: 0.192
+[Train] Iter 4160/5000 | Time: 12.64s | Batch_OA: 97.37 | Batch_mIoU: 49.73 | CE_loss: 0.219
+[Train] Iter 4170/5000 | Time: 12.56s | Batch_OA: 97.91 | Batch_mIoU: 49.43 | CE_loss: 0.114
+[Train] Iter 4180/5000 | Time: 12.45s | Batch_OA: 95.91 | Batch_mIoU: 49.06 | CE_loss: 0.330
+[Train] Iter 4190/5000 | Time: 12.42s | Batch_OA: 97.28 | Batch_mIoU: 49.12 | CE_loss: 0.370
+[Train] Iter 4200/5000 | Time: 12.60s | Batch_OA: 97.25 | Batch_mIoU: 50.37 | CE_loss: 0.184
+[Train] Iter 4210/5000 | Time: 12.47s | Batch_OA: 96.56 | Batch_mIoU: 49.44 | CE_loss: 0.224
+[Train] Iter 4220/5000 | Time: 12.71s | Batch_OA: 97.66 | Batch_mIoU: 49.26 | CE_loss: 0.157
+[Train] Iter 4230/5000 | Time: 12.55s | Batch_OA: 96.91 | Batch_mIoU: 49.12 | CE_loss: 0.158
+[Train] Iter 4240/5000 | Time: 12.53s | Batch_OA: 95.75 | Batch_mIoU: 49.22 | CE_loss: 0.328
+[Train] Iter 4250/5000 | Time: 12.60s | Batch_OA: 93.97 | Batch_mIoU: 48.24 | CE_loss: 0.401
+[Train] Iter 4260/5000 | Time: 12.37s | Batch_OA: 96.32 | Batch_mIoU: 48.60 | CE_loss: 0.232
+[Train] Iter 4270/5000 | Time: 12.53s | Batch_OA: 95.59 | Batch_mIoU: 48.65 | CE_loss: 0.280
+[Train] Iter 4280/5000 | Time: 12.71s | Batch_OA: 95.08 | Batch_mIoU: 48.87 | CE_loss: 0.181
+[Train] Iter 4290/5000 | Time: 12.58s | Batch_OA: 94.45 | Batch_mIoU: 48.79 | CE_loss: 0.203
+[Train] Iter 4300/5000 | Time: 12.64s | Batch_OA: 97.83 | Batch_mIoU: 49.47 | CE_loss: 0.222
+[Train] Iter 4310/5000 | Time: 12.68s | Batch_OA: 93.02 | Batch_mIoU: 48.46 | CE_loss: 0.215
+[Train] Iter 4320/5000 | Time: 12.43s | Batch_OA: 96.53 | Batch_mIoU: 50.41 | CE_loss: 0.262
+[Train] Iter 4330/5000 | Time: 12.77s | Batch_OA: 96.00 | Batch_mIoU: 48.28 | CE_loss: 0.189
+[Train] Iter 4340/5000 | Time: 12.42s | Batch_OA: 95.85 | Batch_mIoU: 48.16 | CE_loss: 0.168
+[Train] Iter 4350/5000 | Time: 12.65s | Batch_OA: 95.18 | Batch_mIoU: 48.25 | CE_loss: 0.298
+[Train] Iter 4360/5000 | Time: 12.62s | Batch_OA: 94.63 | Batch_mIoU: 48.59 | CE_loss: 0.394
+[Train] Iter 4370/5000 | Time: 12.73s | Batch_OA: 94.93 | Batch_mIoU: 48.60 | CE_loss: 0.260
+[Train] Iter 4380/5000 | Time: 12.69s | Batch_OA: 96.58 | Batch_mIoU: 49.01 | CE_loss: 0.257
+[Train] Iter 4390/5000 | Time: 12.69s | Batch_OA: 97.05 | Batch_mIoU: 49.15 | CE_loss: 0.154
+[Train] Iter 4400/5000 | Time: 12.88s | Batch_OA: 96.36 | Batch_mIoU: 48.83 | CE_loss: 0.272
+[Train] Iter 4410/5000 | Time: 12.34s | Batch_OA: 97.29 | Batch_mIoU: 49.60 | CE_loss: 0.302
+[Train] Iter 4420/5000 | Time: 12.61s | Batch_OA: 93.87 | Batch_mIoU: 47.96 | CE_loss: 0.380
+[Train] Iter 4430/5000 | Time: 12.69s | Batch_OA: 95.19 | Batch_mIoU: 48.18 | CE_loss: 0.245
+[Train] Iter 4440/5000 | Time: 12.61s | Batch_OA: 94.43 | Batch_mIoU: 48.10 | CE_loss: 0.245
+[Train] Iter 4450/5000 | Time: 12.80s | Batch_OA: 95.90 | Batch_mIoU: 48.68 | CE_loss: 0.162
+[Train] Iter 4460/5000 | Time: 12.70s | Batch_OA: 97.96 | Batch_mIoU: 50.15 | CE_loss: 0.200
+[Train] Iter 4470/5000 | Time: 12.69s | Batch_OA: 98.79 | Batch_mIoU: 50.33 | CE_loss: 0.173
+[Train] Iter 4480/5000 | Time: 12.77s | Batch_OA: 95.86 | Batch_mIoU: 48.24 | CE_loss: 0.331
+[Train] Iter 4490/5000 | Time: 12.67s | Batch_OA: 95.32 | Batch_mIoU: 48.83 | CE_loss: 0.228
+[Train] Iter 4500/5000 | Time: 12.66s | Batch_OA: 94.47 | Batch_mIoU: 48.73 | CE_loss: 0.237
+Validating..........
+===>fire Precision: 32.78
+===>fire Recall: 47.90
+===>fire IoU: 24.16
+===>fire F1: 38.92
+===> mIoU: 68.06 mean F1: 68.06 OA: 94.66
+[Train] Iter 4510/5000 | Time: 12.16s | Batch_OA: 96.92 | Batch_mIoU: 49.38 | CE_loss: 0.134
+[Train] Iter 4520/5000 | Time: 12.62s | Batch_OA: 97.21 | Batch_mIoU: 48.89 | CE_loss: 0.140
+[Train] Iter 4530/5000 | Time: 12.63s | Batch_OA: 98.51 | Batch_mIoU: 50.35 | CE_loss: 0.175
+[Train] Iter 4540/5000 | Time: 12.61s | Batch_OA: 99.38 | Batch_mIoU: 49.69 | CE_loss: 0.105
+[Train] Iter 4550/5000 | Time: 12.71s | Batch_OA: 95.70 | Batch_mIoU: 48.05 | CE_loss: 0.335
+[Train] Iter 4560/5000 | Time: 12.55s | Batch_OA: 96.17 | Batch_mIoU: 48.38 | CE_loss: 0.175
+[Train] Iter 4570/5000 | Time: 12.66s | Batch_OA: 96.15 | Batch_mIoU: 48.70 | CE_loss: 0.186
+[Train] Iter 4580/5000 | Time: 12.72s | Batch_OA: 96.79 | Batch_mIoU: 49.21 | CE_loss: 0.302
+[Train] Iter 4590/5000 | Time: 12.46s | Batch_OA: 97.17 | Batch_mIoU: 49.32 | CE_loss: 0.216
+[Train] Iter 4600/5000 | Time: 12.61s | Batch_OA: 96.99 | Batch_mIoU: 49.57 | CE_loss: 0.231
+[Train] Iter 4610/5000 | Time: 12.55s | Batch_OA: 95.05 | Batch_mIoU: 48.31 | CE_loss: 0.318
+[Train] Iter 4620/5000 | Time: 12.56s | Batch_OA: 95.51 | Batch_mIoU: 48.87 | CE_loss: 0.223
+[Train] Iter 4630/5000 | Time: 12.72s | Batch_OA: 95.28 | Batch_mIoU: 48.40 | CE_loss: 0.221
+[Train] Iter 4640/5000 | Time: 12.60s | Batch_OA: 98.66 | Batch_mIoU: 49.54 | CE_loss: 0.110
+[Train] Iter 4650/5000 | Time: 12.53s | Batch_OA: 95.65 | Batch_mIoU: 48.09 | CE_loss: 0.258
+[Train] Iter 4660/5000 | Time: 12.63s | Batch_OA: 96.45 | Batch_mIoU: 49.42 | CE_loss: 0.354
+[Train] Iter 4670/5000 | Time: 12.80s | Batch_OA: 95.16 | Batch_mIoU: 48.73 | CE_loss: 0.205
+[Train] Iter 4680/5000 | Time: 12.43s | Batch_OA: 94.68 | Batch_mIoU: 47.81 | CE_loss: 0.234
+[Train] Iter 4690/5000 | Time: 12.66s | Batch_OA: 95.06 | Batch_mIoU: 48.30 | CE_loss: 0.146
+[Train] Iter 4700/5000 | Time: 12.60s | Batch_OA: 97.80 | Batch_mIoU: 49.83 | CE_loss: 0.210
+[Train] Iter 4710/5000 | Time: 12.51s | Batch_OA: 97.63 | Batch_mIoU: 49.05 | CE_loss: 0.100
+[Train] Iter 4720/5000 | Time: 12.82s | Batch_OA: 96.14 | Batch_mIoU: 49.21 | CE_loss: 0.238
+[Train] Iter 4730/5000 | Time: 12.73s | Batch_OA: 96.52 | Batch_mIoU: 49.18 | CE_loss: 0.271
+[Train] Iter 4740/5000 | Time: 12.52s | Batch_OA: 96.92 | Batch_mIoU: 49.15 | CE_loss: 0.258
+[Train] Iter 4750/5000 | Time: 12.67s | Batch_OA: 95.08 | Batch_mIoU: 48.30 | CE_loss: 0.261
+[Train] Iter 4760/5000 | Time: 12.68s | Batch_OA: 95.98 | Batch_mIoU: 48.41 | CE_loss: 0.180
+[Train] Iter 4770/5000 | Time: 12.65s | Batch_OA: 96.97 | Batch_mIoU: 49.25 | CE_loss: 0.229
+[Train] Iter 4780/5000 | Time: 12.68s | Batch_OA: 94.32 | Batch_mIoU: 47.64 | CE_loss: 0.274
+[Train] Iter 4790/5000 | Time: 12.77s | Batch_OA: 96.94 | Batch_mIoU: 48.87 | CE_loss: 0.199
+[Train] Iter 4800/5000 | Time: 12.61s | Batch_OA: 96.85 | Batch_mIoU: 49.36 | CE_loss: 0.140
+[Train] Iter 4810/5000 | Time: 12.85s | Batch_OA: 96.22 | Batch_mIoU: 49.54 | CE_loss: 0.278
+[Train] Iter 4820/5000 | Time: 12.41s | Batch_OA: 96.95 | Batch_mIoU: 49.44 | CE_loss: 0.296
+[Train] Iter 4830/5000 | Time: 12.65s | Batch_OA: 96.57 | Batch_mIoU: 49.50 | CE_loss: 0.310
+[Train] Iter 4840/5000 | Time: 12.73s | Batch_OA: 96.19 | Batch_mIoU: 49.62 | CE_loss: 0.154
+[Train] Iter 4850/5000 | Time: 12.57s | Batch_OA: 96.56 | Batch_mIoU: 48.82 | CE_loss: 0.285
+[Train] Iter 4860/5000 | Time: 12.75s | Batch_OA: 93.72 | Batch_mIoU: 48.46 | CE_loss: 0.354
+[Train] Iter 4870/5000 | Time: 12.67s | Batch_OA: 98.15 | Batch_mIoU: 49.57 | CE_loss: 0.198
+[Train] Iter 4880/5000 | Time: 12.50s | Batch_OA: 94.71 | Batch_mIoU: 47.87 | CE_loss: 0.282
+[Train] Iter 4890/5000 | Time: 12.65s | Batch_OA: 97.43 | Batch_mIoU: 50.00 | CE_loss: 0.162
+[Train] Iter 4900/5000 | Time: 12.46s | Batch_OA: 97.03 | Batch_mIoU: 49.17 | CE_loss: 0.205
+[Train] Iter 4910/5000 | Time: 12.57s | Batch_OA: 96.09 | Batch_mIoU: 48.94 | CE_loss: 0.262
+[Train] Iter 4920/5000 | Time: 12.68s | Batch_OA: 98.28 | Batch_mIoU: 49.98 | CE_loss: 0.178
+[Train] Iter 4930/5000 | Time: 12.82s | Batch_OA: 91.00 | Batch_mIoU: 46.09 | CE_loss: 0.373
+[Train] Iter 4940/5000 | Time: 12.54s | Batch_OA: 96.13 | Batch_mIoU: 49.99 | CE_loss: 0.214
+[Train] Iter 4950/5000 | Time: 12.76s | Batch_OA: 97.69 | Batch_mIoU: 48.94 | CE_loss: 0.404
+[Train] Iter 4960/5000 | Time: 12.77s | Batch_OA: 95.97 | Batch_mIoU: 48.67 | CE_loss: 0.197
+[Train] Iter 4970/5000 | Time: 12.37s | Batch_OA: 98.55 | Batch_mIoU: 49.63 | CE_loss: 0.105
+[Train] Iter 4980/5000 | Time: 12.79s | Batch_OA: 97.12 | Batch_mIoU: 48.65 | CE_loss: 0.188
+[Train] Iter 4990/5000 | Time: 12.74s | Batch_OA: 99.14 | Batch_mIoU: 50.18 | CE_loss: 0.110
+[Train] Iter 5000/5000 | Time: 12.64s | Batch_OA: 98.10 | Batch_mIoU: 50.34 | CE_loss: 0.188
+Validating..........
+===>fire Precision: 27.94
+===>fire Recall: 50.74
+===>fire IoU: 21.98
+===>fire F1: 36.04
+===> mIoU: 66.34 mean F1: 66.34 OA: 93.60
+Testing..........
+===>fire Precision: 38.81
+===>fire Recall: 20.08
+===>fire IoU: 15.25
+===>fire F1: 26.47
+===> mIoU: 61.55 mean F1: 61.55 OA: 93.55

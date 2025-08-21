@@ -1,0 +1,2 @@
+[Train] Iter 10/5000 | Time: 495.28s | Batch_OA: 75.20 | Batch_mIoU: 37.88 | CE_loss: 0.615
+[Train] Iter 20/5000 | Time: 461.65s | Batch_OA: 94.82 | Batch_mIoU: 47.61 | CE_loss: 0.507

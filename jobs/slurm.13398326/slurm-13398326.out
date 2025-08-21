@@ -1,0 +1,7 @@
+Running 1 tasks (12 cores per task) on gpu-b9-3
+Loading cuda/gcc/11.3.0/zen2/12.3.0
+  Loading requirement: gcc/11.3.0
+mv: 'train.ipynb' and 'train.ipynb' are the same file
+[NbConvertApp] Converting notebook train.ipynb to python
+[NbConvertApp] Writing 12744 bytes to train.py
+slurmstepd: error: *** JOB 13398326 ON gpu-b9-3 CANCELLED AT 2025-08-19T12:38:31 ***

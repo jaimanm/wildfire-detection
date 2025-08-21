@@ -1,0 +1,5 @@
+Running 1 tasks (12 cores per task) on gpu-b9-6
+Loading cuda/gcc/11.3.0/zen2/12.3.0
+  Loading requirement: gcc/11.3.0
+mv: 'test_all.py' and 'test_all.py' are the same file
+Running for 732 seconds on 12 cores on gpu-b9-6

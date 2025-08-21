@@ -1,0 +1,7 @@
+Running 1 tasks (12 cores per task) on gpu-b10-4
+Loading cuda/gcc/11.3.0/zen2/12.3.0
+  Loading requirement: gcc/11.3.0
+mv: 'train.ipynb' and 'train.ipynb' are the same file
+[NbConvertApp] Converting notebook train.ipynb to python
+[NbConvertApp] Writing 12571 bytes to train.py
+Running for 573 seconds on 12 cores on gpu-b10-4

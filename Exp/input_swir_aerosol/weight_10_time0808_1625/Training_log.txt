@@ -1,0 +1,1 @@
+[Train] Iter 10/20 | Time: 522.84s | Batch_OA: 75.26 | Batch_mIoU: 37.98 | CE_loss: 0.614
