@@ -105,15 +105,15 @@ class unet(nn.Module):
         self.down4 = Down(512, 1024 // factor)
 
 
-        # Quantum circuit
-        quantum_input_shape = 2 ** n_qubits
-        self.flatten = nn.Flatten()
-        # Hardcoded H and W based on input size 512x512 and 4 downsamples (512/16=32)
-        H, W = 32, 32
-        self.fc1 = nn.Linear((1024 // factor) * H * W, quantum_input_shape)
-        self.quantum_layer = qml.qnn.TorchLayer(quantum_circuit, { "weights": qml.StronglyEntanglingLayers.shape(n_layers=n_layers, n_wires=n_qubits) })
-        self.fc2 = nn.Linear(n_qubits, (1024 // factor) * H * W)
-        self.unflatten = nn.Unflatten(1, (1024 // factor, H, W))
+        # # Quantum circuit
+        # quantum_input_shape = 2 ** n_qubits
+        # self.flatten = nn.Flatten()
+        # # Hardcoded H and W based on input size 512x512 and 4 downsamples (512/16=32)
+        # H, W = 32, 32
+        # self.fc1 = nn.Linear((1024 // factor) * H * W, quantum_input_shape)
+        # self.quantum_layer = qml.qnn.TorchLayer(quantum_circuit, { "weights": qml.StronglyEntanglingLayers.shape(n_layers=n_layers, n_wires=n_qubits) })
+        # self.fc2 = nn.Linear(n_qubits, (1024 // factor) * H * W)
+        # self.unflatten = nn.Unflatten(1, (1024 // factor, H, W))
 
         self.up1 = Up(1024, 512 // factor, bilinear)
         self.up2 = Up(512, 256 // factor, bilinear)
@@ -128,19 +128,19 @@ class unet(nn.Module):
         x4 = self.down3(x3)
         x5 = self.down4(x4)
 
-        # Quantum component
-        x_flat = self.flatten(x5)
-        x_fc = self.fc1(x_flat)
-        x_fc_clean = preprocess_quantum_input(x_fc)
-        try:
-            x_quantum = self.quantum_layer(x_fc_clean)
-        except Exception as e:
-            print(f'exception caught: {e}')
-            print(f'input vector: {x_fc_clean}')
-            raise e
+        # # Quantum component
+        # x_flat = self.flatten(x5)
+        # x_fc = self.fc1(x_flat)
+        # x_fc_clean = preprocess_quantum_input(x_fc)
+        # try:
+        #     x_quantum = self.quantum_layer(x_fc_clean)
+        # except Exception as e:
+        #     print(f'exception caught: {e}')
+        #     print(f'input vector: {x_fc_clean}')
+        #     raise e
             
-        x_fc2 = self.fc2(x_quantum)
-        x5 = self.unflatten(x_fc2)
+        # x_fc2 = self.fc2(x_quantum)
+        # x5 = self.unflatten(x_fc2)
 
         x = self.up1(x5, x4)
         x = self.up2(x, x3)
