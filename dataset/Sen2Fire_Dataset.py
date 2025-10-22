@@ -3,6 +3,7 @@ import numpy as np
 from torch.utils import data
 from tqdm import tqdm
 
+# Define different modes for data processing
 modename = ['all_bands',                        #0
             'all_bands_aerosol',                #1
             'rgb',                              #2
@@ -16,11 +17,13 @@ modename = ['all_bands',                        #0
             'rgb_swir_nbr_ndvi',                #10
             'rgb_swir_nbr_ndvi_aerosol',]       #11
 
+# Predefined maximum values for normalization (example values)
 Max_values = np.array([4.58500000e+03, 8.96800000e+03, 1.03440000e+04, 1.01840000e+04,
                       1.67280000e+04, 1.65260000e+04, 1.63650000e+04, 1.31360000e+04,
                       8.61900000e+03, 6.21700000e+03, 1.56140000e+04, 1.55500000e+04,
                       7.12807226e+00])
-                      
+
+# Functions to create various composites from the patch data            
 def create_rgb_composite(patch_data):
     rgb_patch = patch_data[[3, 2, 1], :, :]
     return rgb_patch
@@ -69,7 +72,9 @@ def create_rgb_swir_nbr_ndvi_aerosol_composite(patch_data):
     rgb_swir_nbr_ndvi_aerosol_composite = np.stack((patch_data[3, :, :], patch_data[2, :, :], patch_data[1, :, :], patch_data[11, :, :], nbr, ndvi, patch_data[-1, :, :]), axis=0)
     return rgb_swir_nbr_ndvi_aerosol_composite
 
+# Dataset class for Sen2Fire dataset
 class Sen2FireDataSet(data.Dataset):
+    # Initialization
     def __init__(self, root, list_path, max_iters=None, mode=5):
         self.root = root
         self.list_path = list_path
@@ -89,13 +94,14 @@ class Sen2FireDataSet(data.Dataset):
         return len(self.files)
 
     def __getitem__(self, index):
+        # Get item by index
         datafiles = self.files[index]
-    
+        # Load image, aerosol, and label data
         image = np.load(datafiles["patch"])['image'].astype(np.float32) / 10000.
         aerosol = np.load(datafiles["patch"])['aerosol']
         label = np.load(datafiles["patch"])['label']
         name = datafiles["name"]
-        
+        # Process data based on the selected mode
         if self.mode == 0:            
             return image, label, np.array(image.shape), name
         else:
@@ -124,9 +130,11 @@ class Sen2FireDataSet(data.Dataset):
                 data = create_rgb_swir_nbr_ndvi_aerosol_composite(data)
         return data, label, np.array(data.shape), name
     
+    # Compute maximum values across the dataset
     def compute_max_values(self):
+        # Initialize max values array
         max_values = np.zeros((13,))  # 12 bands + 1 aerosol band
-
+        # Iterate through the dataset to find max values
         for index in tqdm(range(len(self))):
             datafiles = self.files[index]
             image = np.load(datafiles["patch"])['image'].astype(np.float32)
