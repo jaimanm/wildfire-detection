@@ -4,6 +4,8 @@ import torch.nn.functional as F
 import pennylane as qml
 
 class DoubleConv(nn.Module):
+    #Add two convolution layers with batchnorm and relu activation after that
+    #(Conv => BN => ReLU) * 2
     def __init__(self, in_channels, out_channels, mid_channels=None):
         super().__init__()
         if not mid_channels:
@@ -18,9 +20,12 @@ class DoubleConv(nn.Module):
         )
 
     def forward(self, x):
+        #pass the input through the double conv layers
         return self.double_conv(x)
 
 class Down(nn.Module):
+    #Downscaling with maxpool then double conv
+    # MaxPool2d => DoubleConv
     def __init__(self, in_channels, out_channels):
         super().__init__()
         self.maxpool_conv = nn.Sequential(
@@ -29,30 +34,42 @@ class Down(nn.Module):
         )
 
     def forward(self, x):
+        #pass the input through maxpool and double conv
         return self.maxpool_conv(x)
 
 class Up(nn.Module):
+    #Upscaling then double conv
+    # Upsample => DoubleConv
     def __init__(self, in_channels, out_channels, bilinear=True):
         super().__init__()
 
         if bilinear:
+            #bilinear upsampling followed by a double conv(no learnable parameters)
             self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)
             self.conv = DoubleConv(in_channels, out_channels, in_channels // 2)
         else:
+            #transposed convolution for upsampling (learnable parameters)
             self.up = nn.ConvTranspose2d(in_channels, in_channels // 2, kernel_size=2, stride=2)
             self.conv = DoubleConv(in_channels, out_channels)
 
     def forward(self, x1, x2):
+        #upsample x1 and concatenate with x2
+        # x1 is the input from the previous layer
+        # x2 is the skip connection from the encoder
+        # Upsample x1
         x1 = self.up(x1)
         diffY = x2.size()[2] - x1.size()[2]
         diffX = x2.size()[3] - x1.size()[3]
-
+        # Pad x1 to have the same size as x2
         x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2,
                         diffY // 2, diffY - diffY // 2])
         x = torch.cat([x2, x1], dim=1)
+        #pass the concatenated tensor through double conv
         return self.conv(x)
 
 class OutConv(nn.Module):
+    #Final 1x1 convolution to map to the desired number of classes
+    # 1x1 Conv
     def __init__(self, in_channels, out_channels):
         super(OutConv, self).__init__()
         self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=1)
@@ -62,6 +79,7 @@ class OutConv(nn.Module):
 
     
 def preprocess_quantum_input(x):
+    # Preprocess input for quantum circuit
     # batch: shape (batch_size, n_features)
     # Replace nan/infs with zeros
     batch = torch.nan_to_num(x, nan=0.0, posinf=0.0, neginf=0.0)
@@ -83,14 +101,15 @@ def quantum_circuit(inputs, weights):
     weights_index = 0
     # Define the quantum circuit using PennyLane
     qml.AmplitudeEmbedding(features=inputs, wires=range(n_qubits), pad_with=0.0, normalize=True)
-
-
     # Nearest-neighbors entanglement layer
     qml.StronglyEntanglingLayers(weights=weights, wires=range(n_qubits))
-
     return [qml.expval(qml.PauliZ(wires=i)) for i in range(n_qubits)]
 
 class unet(nn.Module):
+    #UNet architecture with optional quantum layer integration
+    # n_channels: number of input channels
+    # n_classes: number of output classes
+    # bilinear: whether to use bilinear upsampling
     def __init__(self, n_classes, n_channels=13, bilinear=True):
         super(unet, self).__init__()
         self.n_channels = n_channels
@@ -122,6 +141,8 @@ class unet(nn.Module):
         self.outc = OutConv(64, n_classes)
 
     def forward(self, x):
+        #Encoder
+        # Pass input through the encoder path
         x1 = self.inc(x)
         x2 = self.down1(x1)
         x3 = self.down2(x2)
