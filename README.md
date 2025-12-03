@@ -97,7 +97,9 @@ The training script (`train.py`) supports the following configurations:
 epochs = 5
 learning_rate = 1e-4
 weight_decay = 5e-4
-batch_size = 16  # Training
+batch_size = 16        # Training batch size
+test_batch_size = 50   # Testing batch size
+val_batch_size = 1     # Validation batch size
 weight = 10  # Class weight for fire class (addresses imbalance)
 ```
 
