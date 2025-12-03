@@ -361,4 +361,4 @@ The Sentinel-2 mission and data products are provided by the European Space Agen
 
 ---
 
-*This documentation reflects the current state of the codebase as of August 2024. The methodology and results are subject to ongoing refinement as the research progresses.*
+*This documentation reflects the current state of the codebase as of December 2025. The methodology and results are subject to ongoing refinement as the research progresses.*
