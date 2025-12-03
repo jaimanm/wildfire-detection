@@ -68,7 +68,7 @@ python test_all.py \
     --data_dir ../Sen2Fire \
     --test_list ./dataset/test.txt \
     --mode 5 \
-    --restore_from ./Exp/swir_aerosol/weight_10_time0815_1330/best_model.pth \
+    --restore_from ./Exp/swir_aerosol/weight_10_time<TIMESTAMP>/best_model.pth \  # <-- Replace <TIMESTAMP> with your actual run's timestamped directory
     --snapshot_dir ./Map/
 ```
 
